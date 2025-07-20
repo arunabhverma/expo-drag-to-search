@@ -1,0 +1,60 @@
+export interface Contact {
+    id: string;
+    name: string;
+    email: string;
+    phone: string;
+}
+
+export const CONTACTS = [
+    { "id": "1", "name": "Olivia Johnson", "email": "olivia.johnson@example.com", "phone": "+1-202-555-0101" },
+    { "id": "2", "name": "Liam Smith", "email": "liam.smith@example.com", "phone": "+1-202-555-0102" },
+    { "id": "3", "name": "Emma Williams", "email": "emma.williams@example.com", "phone": "+1-202-555-0103" },
+    { "id": "4", "name": "Noah Brown", "email": "noah.brown@example.com", "phone": "+1-202-555-0104" },
+    { "id": "5", "name": "Ava Jones", "email": "ava.jones@example.com", "phone": "+1-202-555-0105" },
+    { "id": "6", "name": "Oliver Garcia", "email": "oliver.garcia@example.com", "phone": "+1-202-555-0106" },
+    { "id": "7", "name": "Sophia Martinez", "email": "sophia.martinez@example.com", "phone": "+1-202-555-0107" },
+    { "id": "8", "name": "Elijah Davis", "email": "elijah.davis@example.com", "phone": "+1-202-555-0108" },
+    { "id": "9", "name": "Isabella Miller", "email": "isabella.miller@example.com", "phone": "+1-202-555-0109" },
+    { "id": "10", "name": "James Wilson", "email": "james.wilson@example.com", "phone": "+1-202-555-0110" },
+    { "id": "11", "name": "Mia Moore", "email": "mia.moore@example.com", "phone": "+1-202-555-0111" },
+    { "id": "12", "name": "Benjamin Taylor", "email": "benjamin.taylor@example.com", "phone": "+1-202-555-0112" },
+    { "id": "13", "name": "Charlotte Anderson", "email": "charlotte.anderson@example.com", "phone": "+1-202-555-0113" },
+    { "id": "14", "name": "Lucas Thomas", "email": "lucas.thomas@example.com", "phone": "+1-202-555-0114" },
+    { "id": "15", "name": "Amelia Jackson", "email": "amelia.jackson@example.com", "phone": "+1-202-555-0115" },
+    { "id": "16", "name": "Henry White", "email": "henry.white@example.com", "phone": "+1-202-555-0116" },
+    { "id": "17", "name": "Evelyn Harris", "email": "evelyn.harris@example.com", "phone": "+1-202-555-0117" },
+    { "id": "18", "name": "Alexander Martin", "email": "alex.martin@example.com", "phone": "+1-202-555-0118" },
+    { "id": "19", "name": "Harper Thompson", "email": "harper.thompson@example.com", "phone": "+1-202-555-0119" },
+    { "id": "20", "name": "William Robinson", "email": "will.robinson@example.com", "phone": "+1-202-555-0120" },
+    { "id": "21", "name": "Ella Clark", "email": "ella.clark@example.com", "phone": "+1-202-555-0121" },
+    { "id": "22", "name": "Daniel Rodriguez", "email": "daniel.rodriguez@example.com", "phone": "+1-202-555-0122" },
+    { "id": "23", "name": "Scarlett Lewis", "email": "scarlett.lewis@example.com", "phone": "+1-202-555-0123" },
+    { "id": "24", "name": "Matthew Lee", "email": "matt.lee@example.com", "phone": "+1-202-555-0124" },
+    { "id": "25", "name": "Grace Walker", "email": "grace.walker@example.com", "phone": "+1-202-555-0125" },
+    { "id": "26", "name": "Jackson Hall", "email": "jackson.hall@example.com", "phone": "+1-202-555-0126" },
+    { "id": "27", "name": "Chloe Allen", "email": "chloe.allen@example.com", "phone": "+1-202-555-0127" },
+    { "id": "28", "name": "Sebastian Young", "email": "sebastian.young@example.com", "phone": "+1-202-555-0128" },
+    { "id": "29", "name": "Lily Hernandez", "email": "lily.hernandez@example.com", "phone": "+1-202-555-0129" },
+    { "id": "30", "name": "Jack King", "email": "jack.king@example.com", "phone": "+1-202-555-0130" },
+    { "id": "31", "name": "Avery Wright", "email": "avery.wright@example.com", "phone": "+1-202-555-0131" },
+    { "id": "32", "name": "Owen Lopez", "email": "owen.lopez@example.com", "phone": "+1-202-555-0132" },
+    { "id": "33", "name": "Layla Hill", "email": "layla.hill@example.com", "phone": "+1-202-555-0133" },
+    { "id": "34", "name": "Wyatt Scott", "email": "wyatt.scott@example.com", "phone": "+1-202-555-0134" },
+    { "id": "35", "name": "Zoey Green", "email": "zoey.green@example.com", "phone": "+1-202-555-0135" },
+    { "id": "36", "name": "Julian Adams", "email": "julian.adams@example.com", "phone": "+1-202-555-0136" },
+    { "id": "37", "name": "Hannah Baker", "email": "hannah.baker@example.com", "phone": "+1-202-555-0137" },
+    { "id": "38", "name": "Levi Nelson", "email": "levi.nelson@example.com", "phone": "+1-202-555-0138" },
+    { "id": "39", "name": "Victoria Carter", "email": "victoria.carter@example.com", "phone": "+1-202-555-0139" },
+    { "id": "40", "name": "David Mitchell", "email": "david.mitchell@example.com", "phone": "+1-202-555-0140" },
+    { "id": "41", "name": "Nora Perez", "email": "nora.perez@example.com", "phone": "+1-202-555-0141" },
+    { "id": "42", "name": "Carter Roberts", "email": "carter.roberts@example.com", "phone": "+1-202-555-0142" },
+    { "id": "43", "name": "Emily Turner", "email": "emily.turner@example.com", "phone": "+1-202-555-0143" },
+    { "id": "44", "name": "Logan Phillips", "email": "logan.phillips@example.com", "phone": "+1-202-555-0144" },
+    { "id": "45", "name": "Zoe Campbell", "email": "zoe.campbell@example.com", "phone": "+1-202-555-0145" },
+    { "id": "46", "name": "Luke Parker", "email": "luke.parker@example.com", "phone": "+1-202-555-0146" },
+    { "id": "47", "name": "Hazel Evans", "email": "hazel.evans@example.com", "phone": "+1-202-555-0147" },
+    { "id": "48", "name": "Grayson Edwards", "email": "grayson.edwards@example.com", "phone": "+1-202-555-0148" },
+    { "id": "49", "name": "Luna Collins", "email": "luna.collins@example.com", "phone": "+1-202-555-0149" },
+    { "id": "50", "name": "Jayden Stewart", "email": "jayden.stewart@example.com", "phone": "+1-202-555-0150" }
+  ]
+  
